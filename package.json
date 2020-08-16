@@ -1,0 +1,13 @@
+{
+  "name": "node_runtime",
+  "version": "0.0.1",
+  "description": "airTravel",
+  "author": "andrii@ibm.com",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
