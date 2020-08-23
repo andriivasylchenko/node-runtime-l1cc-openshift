@@ -10,6 +10,6 @@
   "dependencies": {
     "express": "^4.16.1",
     "mongodb": "^3.5.4",
-    "monk": "^7.1.2",
+    "monk": "^7.1.2"
   }
 }

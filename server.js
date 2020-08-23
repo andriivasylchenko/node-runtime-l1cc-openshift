@@ -11,7 +11,7 @@ app.get('/database/getData', basicAuth(process.env.API_USER, process.env.API_PAS
   collection.find({},{},function(error, docs){
     if (!error) {
       res.json(docs);
-    else {
+    } else {
       res.status(500).json(error);
     }  
   })
