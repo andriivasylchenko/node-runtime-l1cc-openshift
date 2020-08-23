@@ -17,7 +17,7 @@ app.get('/database/getData', basicAuth(process.env.API_USER, process.env.API_PAS
 })
   
 app.post('/database/postData', basicAuth(process.env.API_USER, process.env.API_PASSWORD), function (req, res) {
-  collection.insert(req.body).then((docs) => {
+  collection.insert([{ woot: 'bar' }, { woot: 'baz' }]).then((docs) => {
     res.json(docs);
   }).catch((error) => {
     res.status(500).json(error);
