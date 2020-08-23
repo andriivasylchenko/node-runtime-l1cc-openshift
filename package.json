@@ -1,13 +1,15 @@
 {
   "name": "node_runtime",
-  "version": "0.0.1",
-  "description": "airTravel",
+  "version": "0.1.0",
+  "description": "airtravel node runtime",
   "author": "andrii@ibm.com",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.16.1"
+    "express": "^4.16.1",
+    "mongodb": "^3.5.4",
+    "monk": "^7.1.2",
   }
 }
