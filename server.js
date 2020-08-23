@@ -1,7 +1,7 @@
 var express = require('express');
 var monk = require('monk');
 var db = monk('mongodb/nodetest1');
-var basicAuth = require('basic-auth-connect'),
+var basicAuth = require('basic-auth-connect');
 var app = express();
 
 app.use(express.static('/mnt/storage/www'));
